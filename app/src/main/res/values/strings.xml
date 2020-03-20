@@ -1,3 +1,30 @@
 <resources>
     <string name="app_name">MaterialComponents</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="str_button">Button</string>
+    <string name="str_text_button">Text Button</string>
+    <string name="str_outline_button">Outline Button</string>
+    <string name="str_bottom_appbar">Bottom App Bar</string>
+    <string name="str_bottom_navigation">Bottom Navigation</string>
+    <string name="str_bottom_sheet">Bottom Sheet</string>
+    <string name="str_cards">Cards</string>
+    <string name="str_check_box">Checkbox</string>
+    <string name="str_chips">Chips</string>
+    <string name="str_dialogs">Dialogs</string>
+    <string name="str_elevation_shadow">Elevation And Shadow</string>
+    <string name="str_fab">Floating Action Button</string>
+    <string name="str_fonts">Fonts</string>
+    <string name="str_image_view">Image View</string>
+    <string name="str_pickers">Pickers</string>
+    <string name="str_menus">Menus</string>
+    <string name="str_radio_button">Radio Button</string>
+    <string name="str_shape_theming">Shape Theming</string>
+    <string name="str_sliders">Sliders</string>
+    <string name="str_switchs">Switchs</string>
+    <string name="str_tabs">Tabs</string>
+    <string name="str_text_field">TextFields</string>
+    <string name="str_transitions">Transitions</string>
+    <string name="str_top_appbar">Top Appbar</string>
 </resources>

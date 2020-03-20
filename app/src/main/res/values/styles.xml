@@ -1,11 +1,39 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+
+        <!--主要颜色上面的颜色  这个颜色通常使用在背景色是主要颜色的view上面-->
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <!--主要颜色的变体 通常是colorPrimary的较浅或较深的颜色 -->
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <!--次要颜色-->
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <!--次要颜色变体 通常是colorSecondary的较浅或者较深的颜色-->
+        <item name="colorSecondaryVariant">@color/colorSecondaryVariant</item>
+        <!--次要颜色上面的颜色-->
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+        <!--错误颜色-->
+        <item name="colorError">@color/colorError</item>
+        <item name="colorOnError">@color/colorOnError</item>
+        <!--表层颜色-->
+        <item name="colorSurface">@color/colorSurface</item>
+        <item name="colorOnSurface">@color/colorOnSurface</item>
+
+        <item name="materialButtonOutlinedStyle">@style/MaterialOutlineButton</item>
     </style>
 
+    <style name="TextAppearance.MaterialComponent.ToolBar.Text" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+    </style>
+
+    <style name="MaterialOutlineButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeWidth">2dp</item>
+        <item name="strokeColor">@color/selector_stroke_color_selector</item>
+        <item name="android:textColor">?attr/colorPrimary</item>
+    </style>
 </resources>
