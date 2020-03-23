@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.viewModels
 import com.example.materialcomponents.adapter.MainCardListAdapter
 import com.example.materialcomponents.databinding.FragmentMainBinding
+import com.example.materialcomponents.itemdecotation.GridItemDecoration
 import com.example.materialcomponents.model.ComponentCardEntity
 
 // TODO: Rename parameter arguments, choose names that match
@@ -42,6 +43,7 @@ class MainFragment : Fragment() {
             viewModel = mainViewModel
 
             val adapter = MainCardListAdapter()
+            binding.cardList.addItemDecoration(GridItemDecoration(requireContext()))
             binding.cardList.adapter = adapter
             adapter.submitList(mainViewModel.componentCardEntities)
 

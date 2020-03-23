@@ -19,9 +19,6 @@
         app:cardCornerRadius="@dimen/dimen_card_radius"
         app:cardElevation="@dimen/dimen_card_elevatin"
         app:contentPadding="@dimen/padding_normal"
-        android:layout_marginStart="@dimen/margin_normal"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="@dimen/margin_normal"
         app:rippleColor="@color/colorPrimaryAlpha"
         android:onClick="@{onClickListener}">
 
