@@ -6,6 +6,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.viewModels
+import androidx.recyclerview.widget.RecyclerView
+import com.chad.library.adapter.base.BaseQuickAdapter
+import com.chad.library.adapter.base.listener.OnItemClickListener
 import com.example.materialcomponents.adapter.MainCardListAdapter
 import com.example.materialcomponents.databinding.FragmentMainBinding
 import com.example.materialcomponents.itemdecotation.GridItemDecoration
@@ -46,7 +49,6 @@ class MainFragment : Fragment() {
             binding.cardList.addItemDecoration(GridItemDecoration(requireContext()))
             binding.cardList.adapter = adapter
             adapter.submitList(mainViewModel.componentCardEntities)
-
         }
     }
 

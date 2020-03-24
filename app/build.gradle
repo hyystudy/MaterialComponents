@@ -61,4 +61,5 @@ dependencies {
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
     //viewpager2
     implementation "androidx.viewpager2:viewpager2:$viewpager_version"
+    implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.1'
 }
