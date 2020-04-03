@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="redColors">
+        <item>@color/material_red_50</item>
+        <item>@color/material_red_100</item>
+        <item>@color/material_red_200</item>
+        <item>@color/material_red_300</item>
+        <item>@color/material_red_400</item>
+        <item>@color/material_red_500</item>
+        <item>@color/material_red_600</item>
+        <item>@color/material_red_700</item>
+        <item>@color/material_red_800</item>
+        <item>@color/material_red_900</item>
+    </array>
+    <array name="limeColors">
+        <item>@color/material_Lime_50</item>
+        <item>@color/material_Lime_100</item>
+        <item>@color/material_Lime_200</item>
+        <item>@color/material_Lime_300</item>
+        <item>@color/material_Lime_400</item>
+        <item>@color/material_Lime_500</item>
+        <item>@color/material_Lime_600</item>
+        <item>@color/material_Lime_700</item>
+        <item>@color/material_Lime_800</item>
+        <item>@color/material_Lime_900</item>
+    </array>
+
+    <array name="amberColors">
+        <item>@color/material_amber_50</item>
+        <item>@color/material_amber_100</item>
+        <item>@color/material_amber_200</item>
+        <item>@color/material_amber_300</item>
+        <item>@color/material_amber_400</item>
+        <item>@color/material_amber_500</item>
+        <item>@color/material_amber_600</item>
+        <item>@color/material_amber_700</item>
+        <item>@color/material_amber_800</item>
+        <item>@color/material_amber_900</item>
+    </array>
+    
+    <array name="blueGreyColors">
+        <item>@color/material_blueGrey_50</item>
+        <item>@color/material_blueGrey_100</item>
+        <item>@color/material_blueGrey_200</item>
+        <item>@color/material_blueGrey_300</item>
+        <item>@color/material_blueGrey_400</item>
+        <item>@color/material_blueGrey_500</item>
+        <item>@color/material_blueGrey_600</item>
+        <item>@color/material_blueGrey_700</item>
+        <item>@color/material_blueGrey_800</item>
+        <item>@color/material_blueGrey_900</item>
+    </array>
+    
+    <array name="blueColors">
+        <item>@color/material_blue_50</item>
+        <item>@color/material_blue_100</item>
+        <item>@color/material_blue_200</item>
+        <item>@color/material_blue_300</item>
+        <item>@color/material_blue_400</item>
+        <item>@color/material_blue_500</item>
+        <item>@color/material_blue_600</item>
+        <item>@color/material_blue_700</item>
+        <item>@color/material_blue_800</item>
+        <item>@color/material_blue_900</item>
+    </array>
+    
+    <array name="lightBlueColors">
+        <item>@color/material_lightBlue_50</item>
+        <item>@color/material_lightBlue_100</item>
+        <item>@color/material_lightBlue_200</item>
+        <item>@color/material_lightBlue_300</item>
+        <item>@color/material_lightBlue_400</item>
+        <item>@color/material_lightBlue_500</item>
+        <item>@color/material_lightBlue_600</item>
+        <item>@color/material_lightBlue_700</item>
+        <item>@color/material_lightBlue_800</item>
+        <item>@color/material_lightBlue_900</item>
+    </array>
+    
+    <array name="brownColors">
+        <item>@color/material_brown_50</item>
+        <item>@color/material_brown_100</item>
+        <item>@color/material_brown_200</item>
+        <item>@color/material_brown_300</item>
+        <item>@color/material_brown_400</item>
+        <item>@color/material_brown_500</item>
+        <item>@color/material_brown_600</item>
+        <item>@color/material_brown_700</item>
+        <item>@color/material_brown_800</item>
+        <item>@color/material_brown_900</item>
+    </array>
+    
+    <array name="cyanColors">
+        <item>@color/material_cyan_50</item>
+        <item>@color/material_cyan_100</item>
+        <item>@color/material_cyan_200</item>
+        <item>@color/material_cyan_300</item>
+        <item>@color/material_cyan_400</item>
+        <item>@color/material_cyan_500</item>
+        <item>@color/material_cyan_600</item>
+        <item>@color/material_cyan_700</item>
+        <item>@color/material_cyan_800</item>
+        <item>@color/material_cyan_900</item>
+    </array>
+    
+    <array name="deepOrangeColors">
+        <item>@color/material_deepOrange_50</item>
+        <item>@color/material_deepOrange_100</item>
+        <item>@color/material_deepOrange_200</item>
+        <item>@color/material_deepOrange_300</item>
+        <item>@color/material_deepOrange_400</item>
+        <item>@color/material_deepOrange_500</item>
+        <item>@color/material_deepOrange_600</item>
+        <item>@color/material_deepOrange_700</item>
+        <item>@color/material_deepOrange_800</item>
+        <item>@color/material_deepOrange_900</item>
+    </array>
+    
+    <array name="deepPurpleColors">
+        <item>@color/material_deepPurple_50</item>
+        <item>@color/material_deepPurple_100</item>
+        <item>@color/material_deepPurple_200</item>
+        <item>@color/material_deepPurple_300</item>
+        <item>@color/material_deepPurple_400</item>
+        <item>@color/material_deepPurple_500</item>
+        <item>@color/material_deepPurple_600</item>
+        <item>@color/material_deepPurple_700</item>
+        <item>@color/material_deepPurple_800</item>
+        <item>@color/material_deepPurple_900</item>
+    </array>
+    
+    <array name="greenColors">
+        <item>@color/material_green_50</item>
+        <item>@color/material_green_100</item>
+        <item>@color/material_green_200</item>
+        <item>@color/material_green_300</item>
+        <item>@color/material_green_400</item>
+        <item>@color/material_green_500</item>
+        <item>@color/material_green_600</item>
+        <item>@color/material_green_700</item>
+        <item>@color/material_green_800</item>
+        <item>@color/material_green_900</item>
+    </array>
+    
+    <array name="indigoColors">
+        <item>@color/material_indigo_50</item>
+        <item>@color/material_indigo_100</item>
+        <item>@color/material_indigo_200</item>
+        <item>@color/material_indigo_300</item>
+        <item>@color/material_indigo_400</item>
+        <item>@color/material_indigo_500</item>
+        <item>@color/material_indigo_600</item>
+        <item>@color/material_indigo_700</item>
+        <item>@color/material_indigo_800</item>
+        <item>@color/material_indigo_900</item>
+    </array>
+    
+    <array name="lightGreenColors">
+        <item>@color/material_lightGreen_50</item>
+        <item>@color/material_lightGreen_100</item>
+        <item>@color/material_lightGreen_200</item>
+        <item>@color/material_lightGreen_300</item>
+        <item>@color/material_lightGreen_400</item>
+        <item>@color/material_lightGreen_500</item>
+        <item>@color/material_lightGreen_600</item>
+        <item>@color/material_lightGreen_700</item>
+        <item>@color/material_lightGreen_800</item>
+        <item>@color/material_lightGreen_900</item>
+    </array>
+    
+    <array name="orangeColors">
+        <item>@color/material_orange_50</item>
+        <item>@color/material_orange_100</item>
+        <item>@color/material_orange_200</item>
+        <item>@color/material_orange_300</item>
+        <item>@color/material_orange_400</item>
+        <item>@color/material_orange_500</item>
+        <item>@color/material_orange_600</item>
+        <item>@color/material_orange_700</item>
+        <item>@color/material_orange_800</item>
+        <item>@color/material_orange_900</item>
+    </array> 
+    <array name="pinkColors">
+       <item>@color/material_pink_50</item>
+       <item>@color/material_pink_100</item>
+       <item>@color/material_pink_200</item>
+       <item>@color/material_pink_300</item>
+       <item>@color/material_pink_400</item>
+       <item>@color/material_pink_500</item>
+       <item>@color/material_pink_600</item>
+       <item>@color/material_pink_700</item>
+       <item>@color/material_pink_800</item>
+       <item>@color/material_pink_900</item>
+    </array>
+    
+    <array name="purpleColors">
+        <item>@color/material_purple_50</item>
+        <item>@color/material_purple_100</item>
+        <item>@color/material_purple_200</item>
+        <item>@color/material_purple_300</item>
+        <item>@color/material_purple_400</item>
+        <item>@color/material_purple_500</item>
+        <item>@color/material_purple_600</item>
+        <item>@color/material_purple_700</item>
+        <item>@color/material_purple_800</item>
+        <item>@color/material_purple_900</item>
+    </array>
+    <array name="tealColors">
+        <item>@color/material_teal_50</item>
+        <item>@color/material_teal_100</item>
+        <item>@color/material_teal_200</item>
+        <item>@color/material_teal_300</item>
+        <item>@color/material_teal_400</item>
+        <item>@color/material_teal_500</item>
+        <item>@color/material_teal_600</item>
+        <item>@color/material_teal_700</item>
+        <item>@color/material_teal_800</item>
+        <item>@color/material_teal_900</item>
+    </array>
+    <array name="yellowColors">
+        <item>@color/material_yellow_50</item>
+        <item>@color/material_yellow_100</item>
+        <item>@color/material_yellow_200</item>
+        <item>@color/material_yellow_300</item>
+        <item>@color/material_yellow_400</item>
+        <item>@color/material_yellow_500</item>
+        <item>@color/material_yellow_600</item>
+        <item>@color/material_yellow_700</item>
+        <item>@color/material_yellow_800</item>
+        <item>@color/material_yellow_900</item>
+    </array>
+</resources>

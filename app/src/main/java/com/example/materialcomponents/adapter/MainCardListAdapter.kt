@@ -52,6 +52,9 @@ class MainCardListAdapter : ListAdapter<ComponentCardEntity, MainCardListAdapter
                 R.string.str_button -> {
                     MainFragmentDirections.actionMainFragmentToButtonFragment()
                 }
+                R.string.str_tabs -> {
+                    MainFragmentDirections.actionMainFragmentToTabLayoutFragment()
+                }
                 else -> null
             }
         }
