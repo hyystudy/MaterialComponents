@@ -9,7 +9,7 @@
     <color name="colorSecondary">#E1BEE7</color>
     <color name="colorSecondaryVariant">#F3CCFA</color>
 
-    <color name="colorOnSecondary">#fafafa</color>
+    <color name="colorOnSecondary">@color/design_default_color_secondary</color>
     <color name="colorError">#DE4336</color>
     <color name="colorOnError">#fafafa</color>
     <color name="colorSurface">#fafafa</color>

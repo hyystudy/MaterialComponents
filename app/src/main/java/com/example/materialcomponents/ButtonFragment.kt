@@ -41,11 +41,6 @@ class ButtonFragment : Fragment() {
         return binding.root
     }
 
-    fun initView() {
-
-//        binding.text_button
-    }
-
 
     companion object {
         /**
