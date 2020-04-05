@@ -9,13 +9,17 @@
         android:id="@+id/mainFragment"
         android:name="com.example.materialcomponents.MainFragment"
         android:label="fragment_main"
-        tools:layout="@layout/fragment_main" >
+        tools:layout="@layout/fragment_main">
         <action
             android:id="@+id/action_mainFragment_to_buttonFragment"
             app:destination="@id/buttonFragment" />
         <action
             android:id="@+id/action_mainFragment_to_badageDrawableFragment"
             app:destination="@id/badageDrawableFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_tabLayoutFragment"
+            app:destination="@id/tabLayoutFragment" />
+
     </fragment>
 
     <fragment
@@ -29,4 +33,11 @@
         android:name="com.example.materialcomponents.BadageDrawableFragment"
         android:label="fragment_badage_drawable"
         tools:layout="@layout/fragment_badage_drawable" />
+    <fragment
+        android:id="@+id/tabLayoutFragment"
+        android:name="com.example.materialcomponents.TabLayoutFragment"
+        android:label="fragment_tab_layout"
+        tools:layout="@layout/fragment_tab_layout" />
+
+
 </navigation>
