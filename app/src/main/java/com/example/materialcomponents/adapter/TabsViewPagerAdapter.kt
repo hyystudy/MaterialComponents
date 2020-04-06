@@ -5,7 +5,7 @@ import androidx.fragment.app.FragmentManager
 import androidx.viewpager2.adapter.FragmentStateAdapter
 import com.example.materialcomponents.MaterialColorFragment
 
-class TabsViewPagerAdapter(fragment: Fragment, val tabNames: List<String>) : FragmentStateAdapter(fragment) {
+class TabsViewPagerAdapter constructor(fragment: Fragment, val tabNames: List<String>) : FragmentStateAdapter(fragment) {
     override fun getItemCount(): Int = tabNames.size
 
     override fun createFragment(position: Int): Fragment {

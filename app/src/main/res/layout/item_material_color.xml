@@ -12,8 +12,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/root_view"
         android:layout_width="match_parent"
-        android:layout_height="56dp"
-        app:backgroundFromColor="@{color}">
+        android:layout_height="56dp">
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

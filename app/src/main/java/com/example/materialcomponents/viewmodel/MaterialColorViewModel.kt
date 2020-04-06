@@ -49,7 +49,6 @@ class MaterialColorViewModel : ViewModel() {
             R.color.material_Lime_100,
             R.color.material_Lime_200,
             R.color.material_Lime_300,
-            R.color.material_Lime_300,
             R.color.material_Lime_400,
             R.color.material_Lime_500,
             R.color.material_Lime_600,

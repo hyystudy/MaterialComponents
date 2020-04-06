@@ -55,6 +55,9 @@ class MainCardListAdapter : ListAdapter<ComponentCardEntity, MainCardListAdapter
                 R.string.str_tabs -> {
                     MainFragmentDirections.actionMainFragmentToTabLayoutFragment()
                 }
+                R.string.str_bottom_appbar -> {
+                    MainFragmentDirections.actionMainFragmentToBadageDrawableFragment()
+                }
                 else -> null
             }
         }

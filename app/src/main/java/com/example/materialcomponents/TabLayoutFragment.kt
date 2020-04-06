@@ -19,11 +19,13 @@ class TabLayoutFragment : Fragment() {
 
     lateinit var mBinding: FragmentTabLayoutBinding
 
-    val mAdapter: TabsViewPagerAdapter by lazy {
-        TabsViewPagerAdapter(this, mViewModel.tabsNames)
-    }
     val mViewModel: TabsViewModel by lazy {
         ViewModelProvider(this, ViewModelProvider.NewInstanceFactory()).get(TabsViewModel::class.java)
+    }
+
+
+    val mAdapter: TabsViewPagerAdapter by lazy {
+        TabsViewPagerAdapter(this, mViewModel.tabsNames)
     }
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
