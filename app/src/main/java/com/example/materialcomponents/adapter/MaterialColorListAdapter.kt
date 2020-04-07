@@ -26,16 +26,15 @@ class MaterialColorListAdapter : ListAdapter<Int, MaterialColorListAdapter.Mater
     class MaterialColorViewHolder(val binding: ItemMaterialColorBinding): RecyclerView.ViewHolder(binding.rootView) {
 
         fun bind(colorRes: Int) {
-                binding.rootView.setBackgroundColor(binding.rootView.context.resources.getColor(colorRes))
-//            binding.apply {
-//                color = colorRes
-//                executePendingBindings()
-//            }
+            binding.apply {
+                color = colorRes
+                executePendingBindings()
+            }
         }
     }
 
     companion object {
-        private val TAG = "MaterialColorListAdapter"
+        private val TAG = "MaterialColorAdapter"
     }
 }
 

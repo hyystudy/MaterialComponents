@@ -3,8 +3,8 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimary">@color/material_textBlack_dividers</item>
+        <item name="colorPrimaryDark">@color/material_black</item>
         <item name="colorAccent">@color/colorAccent</item>
 
         <!--主要颜色上面的颜色  这个颜色通常使用在背景色是主要颜色的view上面-->
@@ -21,28 +21,11 @@
         <item name="colorError">@color/colorError</item>
         <item name="colorOnError">@color/colorOnError</item>
         <!--表层颜色-->
-        <item name="colorSurface">@color/colorSurface</item>
-        <item name="colorOnSurface">@color/colorOnSurface</item>
+        <item name="colorSurface">@color/colorSurfaceDarker</item>
+        <item name="colorOnSurface">@color/colorOnSurfaceDarker</item>
 
-        <!--        <item name="colorControlNormal">@color/colorOnPrimary</item>-->
-        <item name="actionBarSize">56dp</item>
-        <!--        <item name="appBarLayoutStyle">@style/AppTheme.AppBarOverlay</item>-->
-        <item name="actionOverflowMenuStyle">@style/AppTheme.PopupMenuOverFlow</item>
         <item name="materialButtonOutlinedStyle">@style/MaterialOutlineButton</item>
     </style>
-
-    <!--appbarLayout 右侧menuIcon 的 style 控制 icon的颜色 Dark 默认 icon 是白色  icon的颜色是由colorControlNormal 控制的-->
-    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar">
-<!--        <item name="colorControlNormal">@color/colorOnPrimary</item>-->
-    </style>
-
-    <!--toolbar 右侧popurMenu 的 style 控制 背景 和 字体颜色  Light 指的是 背景是白色 字体颜色是黑色-->
-    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light"/>
-    <!--控制toolbar 右侧 popupMenu 的style-->
-    <style name="AppTheme.PopupMenuOverFlow" parent="Widget.MaterialComponents.PopupMenu.Overflow">
-        <item name="android:dropDownVerticalOffset">48dp</item>
-    </style>
-
 
     <style name="TextAppearance.MaterialComponent.ToolBar.Text" parent="TextAppearance.MaterialComponents.Headline6">
         <item name="android:textColor">?attr/colorOnPrimary</item>

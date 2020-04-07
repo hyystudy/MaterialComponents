@@ -13,7 +13,9 @@
     <color name="colorError">@color/material_accentPink_a400</color>
     <color name="colorOnError">#fafafa</color>
     <color name="colorSurface">#fafafa</color>
+    <color name="colorSurfaceDarker">#1B1B1B</color>
     <color name="colorOnSurface">#1B1B1B</color>
+    <color name="colorOnSurfaceDarker">#fafafa</color>
     <color name="colorStrokeDefault">#787878</color>
 
     <color name="ripple_color_lightBlue_20">#334fc3f7</color>
