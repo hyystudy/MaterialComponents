@@ -23,7 +23,8 @@
         <!--表层颜色-->
         <item name="colorSurface">@color/colorSurfaceDarker</item>
         <item name="colorOnSurface">@color/colorOnSurfaceDarker</item>
-
+        <item name="divideLight">@color/material_textBlack_dividers</item>
+        <item name="divideDark">@color/material_textWhite_dividers</item>
         <item name="materialButtonOutlinedStyle">@style/MaterialOutlineButton</item>
     </style>
 

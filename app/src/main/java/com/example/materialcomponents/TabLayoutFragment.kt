@@ -10,6 +10,7 @@ import androidx.navigation.fragment.findNavController
 import com.example.materialcomponents.adapter.TabsViewPagerAdapter
 import com.example.materialcomponents.databinding.FragmentTabLayoutBinding
 import com.example.materialcomponents.viewmodel.TabsViewModel
+import com.google.android.material.badge.BadgeDrawable
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
 
@@ -59,5 +60,24 @@ class TabLayoutFragment : Fragment() {
             tab.text = mViewModel.tabsNames[position]
         }.attach()
 
+        //deal with badge
+        mBinding.tabLayout.getTabAt(1)?.orCreateBadge?.isVisible = true
+        mBinding.tabLayout.getTabAt(2)?.orCreateBadge?.isVisible = true
+        mBinding.tabLayout.getTabAt(2)?.badge?.number = 99
+        mBinding.tabLayout.addOnTabSelectedListener(object : TabLayout.OnTabSelectedListener{
+            override fun onTabReselected(tab: TabLayout.Tab?) {
+
+            }
+
+            override fun onTabUnselected(tab: TabLayout.Tab?) {
+            }
+
+            override fun onTabSelected(tab: TabLayout.Tab?) {
+                if (tab?.badge?.isVisible == true){
+                    tab.badge?.isVisible = false
+                }
+            }
+
+        })
     }
 }

@@ -17,9 +17,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:cardCornerRadius="@dimen/dimen_card_radius"
-        app:cardElevation="@dimen/dimen_card_elevatin"
+        app:cardElevation="2dp"
         app:contentPadding="@dimen/padding_normal"
         app:rippleColor="@color/colorPrimaryAlpha"
+        android:outlineSpotShadowColor="?colorPrimary"
         android:onClick="@{onClickListener}">
 
         <androidx.constraintlayout.widget.ConstraintLayout

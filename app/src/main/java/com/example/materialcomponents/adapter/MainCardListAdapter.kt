@@ -58,6 +58,9 @@ class MainCardListAdapter : ListAdapter<ComponentCardEntity, MainCardListAdapter
                 R.string.str_bottom_appbar -> {
                     MainFragmentDirections.actionMainFragmentToBadageDrawableFragment()
                 }
+                R.string.str_bottom_navigation -> {
+                    MainFragmentDirections.actionMainFragmentToBottomNavigationFragment()
+                }
                 else -> null
             }
         }

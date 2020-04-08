@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.fragment.findNavController
 import com.example.materialcomponents.databinding.FragmentButtonBinding
 
 // TODO: Rename parameter arguments, choose names that match
@@ -22,7 +23,7 @@ class ButtonFragment : Fragment() {
     private var param1: String? = null
     private var param2: String? = null
 
-    private lateinit var binding: FragmentButtonBinding
+    private lateinit var mBinding: FragmentButtonBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         arguments?.let {
@@ -36,9 +37,19 @@ class ButtonFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        val binding = FragmentButtonBinding.inflate(inflater, container, false)
+        mBinding = FragmentButtonBinding.inflate(inflater, container, false)
+        return mBinding.root
+    }
 
-        return binding.root
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        initView()
+    }
+
+    private fun initView() {
+        mBinding.toolbar.setNavigationOnClickListener {
+            findNavController().navigateUp()
+        }
     }
 
 

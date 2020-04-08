@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/library_page"
+        android:icon="@drawable/ic_local_library_white"
+        android:title="Library"/>
+
+    <item android:id="@+id/home_page"
+        android:icon="@drawable/ic_home_white"
+        android:title="Home"/>
+
+    <item android:id="@+id/mine_page"
+        android:icon="@drawable/ic_account_circle_white"
+        android:title="Mine"/>
+</menu>

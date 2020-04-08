@@ -19,6 +19,9 @@
         <action
             android:id="@+id/action_mainFragment_to_tabLayoutFragment"
             app:destination="@id/tabLayoutFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_bottomNavigationFragment"
+            app:destination="@id/bottomNavigationFragment" />
 
     </fragment>
 
@@ -38,6 +41,11 @@
         android:name="com.example.materialcomponents.TabLayoutFragment"
         android:label="fragment_tab_layout"
         tools:layout="@layout/fragment_tab_layout" />
+    <fragment
+        android:id="@+id/bottomNavigationFragment"
+        android:name="com.example.materialcomponents.BottomNavigationFragment"
+        android:label="fragment_bottom_navigation"
+        tools:layout="@layout/fragment_bottom_navigation" />
 
 
 </navigation>

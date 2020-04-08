@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">@color/material_teal_800</color>
-    <color name="colorPrimaryAlpha">#1400BFA5</color>
-    <color name="colorPrimaryDark">@color/material_teal_900</color>
-    <color name="colorAccent">@color/material_accentPink_a200</color>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryAlpha">#146200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
     <color name="colorOnPrimary">@color/material_textWhite_text</color>
-    <color name="colorPrimaryVariant">@color/material_teal_A400</color>
-    <color name="colorSecondary">@color/material_blue_700</color>
-    <color name="colorSecondaryVariant">@color/material_blue_300</color>
+    <color name="colorPrimaryVariant">#3700B3</color>
+    <color name="colorSecondary">#03DAC6</color>
+    <color name="colorSecondaryVariant">#018786</color>
 
-    <color name="colorOnSecondary">@color/material_textWhite_text</color>
-    <color name="colorError">@color/material_accentPink_a400</color>
+    <color name="colorOnSecondary">@color/material_textBlack_text</color>
+    <color name="colorError">#B00020</color>
     <color name="colorOnError">#fafafa</color>
-    <color name="colorSurface">#fafafa</color>
+    <color name="colorSurface">#FFFFFF</color>
     <color name="colorSurfaceDarker">#1B1B1B</color>
-    <color name="colorOnSurface">#1B1B1B</color>
+    <color name="colorOnSurface">@color/material_textBlack_text</color>
     <color name="colorOnSurfaceDarker">#fafafa</color>
     <color name="colorStrokeDefault">#787878</color>
 
